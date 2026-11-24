@@ -1,0 +1,20 @@
+# Personal data exported from the app - never commit these (they contain your notes, jobs and logs)
+datapath-backup-*.json
+study-notes-*.md
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Tooling
+node_modules/
+*.log
